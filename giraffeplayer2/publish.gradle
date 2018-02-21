@@ -104,19 +104,19 @@ javadoc {
     }
 }
 
-//bintray {
-//    user = bintrayUser
-//    key = bintrayApikey
-//    configurations = ['archives']
-//    pkg {
-//        repo = "maven"
-//        name = projectName
-//        desc = projectDesc
-//        websiteUrl = projectSiteUrl
-//        issueTrackerUrl = projectIssueTrackerUrl
-//        vcsUrl = projectGitUrl
-//        labels = ['android', 'video', 'player','ffmpeg']
-//        licenses = ["Apache-2.0"]
-//        publish = true
-//    }
-//}
+bintray {
+    user = 'hello'
+    key = 'hello wolrd'
+    configurations = ['archives']
+    pkg {
+        repo = "maven"
+        name = projectName
+        desc = projectDesc
+        websiteUrl = projectSiteUrl
+        issueTrackerUrl = projectIssueTrackerUrl
+        vcsUrl = projectGitUrl
+        labels = ['android', 'video', 'player','ffmpeg']
+        licenses = ["Apache-2.0"]
+        publish = true
+    }
+}
